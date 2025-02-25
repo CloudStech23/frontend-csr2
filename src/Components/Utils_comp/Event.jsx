@@ -176,7 +176,7 @@ function Event() {
       </h2>
       <MDBRow className="">
         {loading ? (
-          [...Array(3)].map((_, index) => (
+          [...Array(filteredEvents.length)].map((_, index) => (
             <SkeletonTheme baseColor="#ddd" highlightColor="#ccc" key={index}>
               <MDBCol lg="4" md="6" sm="12" className="mb-4">
                 <MDBCard
