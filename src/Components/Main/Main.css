@@ -1,0 +1,73 @@
+/* Global styles */
+html,
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.5;
+  color: rgb(33, 37, 41);
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  background-color: rgb(248, 248, 248);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+}
+
+/* Container styles */
+.custom-container {
+  max-width: 1210px;
+  padding-right: var(--bs-gutter-x, .75rem);
+  padding-left: var(--bs-gutter-x, .75rem);
+  margin: 0 auto;
+}
+
+/* Body section styles */
+.clear {
+  clear: both;
+}
+
+.containerBody {
+  max-width: 950px;
+  margin: 0 auto;
+   
+}
+
+.bodytextPara,
+.bodytext {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(84, 84, 84);
+  line-height: 27px;
+  letter-spacing: 0.14px;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+.bodytext {
+  color: rgb(70, 70, 70);
+  line-height: 31px;
+  letter-spacing: -0.02px;
+}
+
+/* Padding at bottom */
+.bottomP60 {
+  padding-bottom: 60px;
+}
+
+.fade-effect {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.fade-effect.show {
+  opacity: 1;
+}
+.vertical-separator {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
